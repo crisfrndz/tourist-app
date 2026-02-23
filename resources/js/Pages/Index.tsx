@@ -30,8 +30,11 @@ export default function Index() {
                                 ></path>
                             </svg>
                         </a> */}
-                        <h1 className="mb-4 text-4xl font-heading1 font-bold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                            Central Luzon State University Kamalig
+                        <h1 className="mb-4 text-4xl font-heading1 font-bold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl dark:text-white">
+                            Central Luzon State University
+                            <span className="text-slate-200 bg-green-700 px-5 py-2 rounded-xl ml-4">
+                                Kamalig
+                            </span>
                         </h1>
                         <p className="mb-8 text-lg font-heading3 text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
                             Nestled amid lush greenery and rolling hills, this
