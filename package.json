@@ -30,6 +30,7 @@
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.14",
         "class-variance-authority": "^0.7.1",
-        "lucide-react": "^0.564.0"
+        "lucide-react": "^0.564.0",
+        "motion": "^12.34.3"
     }
 }
