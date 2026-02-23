@@ -17,7 +17,7 @@ export default function Nav() {
     return (
         <header className=" lg:w-full flex justify-center p-3">
             <motion.div
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.03 }}
                 className="bg-slate-200 h-11 w-1/2 rounded-full flex justify-around items-center gap-3 p-3"
             >
                 <a
