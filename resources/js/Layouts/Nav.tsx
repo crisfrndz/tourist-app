@@ -18,29 +18,29 @@ export default function Nav() {
         <header className=" lg:w-full flex justify-center p-3">
             <motion.div
                 whileHover={{ scale: 1.03 }}
-                className="bg-slate-200 h-11 w-1/2 rounded-full flex justify-around items-center gap-3 p-3"
+                className="bg-gray-100 h-11 w-1/2 rounded-full flex justify-around items-center gap-3 p-3"
             >
                 <a
-                    href=""
-                    className="font-heading1 font-semibold bg-green-700 w-[25%] text-center py-1 text-slate-200 rounded-full"
+                    href="/"
+                    className=" font-medium bg-green-700 w-[25%] text-center py-1 text-gray-100 rounded-full"
                 >
                     Home
                 </a>
                 <a
-                    href=""
-                    className="font-heading1 font-semibold  w-[25%] text-center py-1 rounded-full"
+                    href="/spots"
+                    className="font-heading1 font-mediumd  w-[25%] text-center py-1 rounded-full"
                 >
                     Spots
                 </a>
                 <a
                     href=""
-                    className="font-heading1 font-semibold  w-[25%] text-center py-1  rounded-full"
+                    className="font-heading1 font-mediumd  w-[25%] text-center py-1  rounded-full"
                 >
                     Feedbacks
                 </a>
                 <a
                     href=""
-                    className="font-heading1 font-semibold  w-[25%] text-center py-1  rounded-full"
+                    className="font-heading1 font-mediumd  w-[25%] text-center py-1  rounded-full"
                 >
                     About
                 </a>

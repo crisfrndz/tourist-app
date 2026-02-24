@@ -72,5 +72,9 @@ export default {
         },
     },
 
-    plugins: [forms, require("tailwindcss-animate")],
+    plugins: [forms, require("tailwindcss-animate"), require("daisyui")],
+
+    daisyui: {
+        themes: ["light", "dark"], // or false to disable themes
+    },
 };
